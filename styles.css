@@ -1,4 +1,22 @@
+*, *::before, *::after{
+    box-sizing:border-box;
+}
+body{
+    margin: 10px;
+}
 p{
     padding: 0px ;
     margin:20px;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color:gold;
+    display:inline-block;
+    
+}
+
+.box::before{
+    content: 'Hello';
 }
