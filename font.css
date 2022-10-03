@@ -23,11 +23,13 @@ body{
     margin:10px;
     font-family: "Open Sans" , Arial, Helvetica, sans-serif;
     font-size:1rem; /*1*16px(font size of the root element)*/
+    line-height:1.5;
 }
 
 h1{
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size:3.052rem;
+    margin: 3rem 0 1rem;
 }
 
 h2 {
