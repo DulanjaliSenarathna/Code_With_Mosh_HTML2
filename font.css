@@ -1,4 +1,7 @@
 
+html{
+    font-size:100%;
+}
 @font-face {
     font-family: 'opensans';
     src: url('fonts/open-sans/opensans-bold-webfont.woff2') format('woff2'),
@@ -19,15 +22,27 @@
 body{
     margin:10px;
     font-family: "Open Sans" , Arial, Helvetica, sans-serif;
+    font-size:1rem; /*1*16px(font size of the root element)*/
 }
 
 h1{
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size:3.052rem;
+}
+
+h2 {
+    font-size:2.441rem;
 }
 
 p{
     font-weight: normal;
-    font-style:italic;
+   
     font-size:1rem;
-    color:red;
+    color:#333;
+}
+
+@media screen and (min-width:400px){
+html{
+    font-size: 130%;
+}
 }
