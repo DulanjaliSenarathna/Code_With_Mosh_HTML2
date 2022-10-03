@@ -38,9 +38,11 @@ h2 {
 
 p{
     font-weight: normal;
-   
+   letter-spacing:2px;
+   word-spacing:2px;
     font-size:1rem;
     color:#333;
+    width:50ch;
 }
 
 @media screen and (min-width:400px){
