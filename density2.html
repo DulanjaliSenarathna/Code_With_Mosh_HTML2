@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="imagedensity.css">
 </head>
 <body>
-    <img class="img" src="images/meal.jpg" alt="meal image" >
+    <img class="img1" src="images/meal.jpg" alt="meal image" 
+    srcset="images/meal.jpg 150w,
+     images/meal@2x.jpg 300w,
+      images/meal@3x.jpg 450w"
+    
+    sizes="(max-width: 500px) 100vw,
+           (max-width: 700px) 50vw,
+           33vw ">
 
-    <img class="img" src="images/meal.jpg" alt="meal image" srcset="images/meal@1x.jpg 1x, images/meal@2x.jpg 2x, images/meal@3x.jpg 3x ">
 </body>
 </html>
