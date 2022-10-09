@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justfy-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    perspective:200px;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    background:gold;
+    
+}
+
+.box-special{
+    height:100px;
+    width:100px;
+    background:gold;
+}
+
+.box:hover{
+    transform:  translateZ(-50px);
+}
+
+.container:hover .box{
+    transform:  rotateY(15deg);
+    transform-origin: 0 50%;
+}
+
+.container:hover .box-special{
+    transform:  rotateX(45deg);
+    transform-origin: 0 50%;
+}
