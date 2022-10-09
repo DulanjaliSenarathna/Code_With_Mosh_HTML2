@@ -1,0 +1,16 @@
+body{
+    display:flex;
+    justfy-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    background:gold;
+}
+
+.box:hover{
+    transform: rotate(15deg) translate(10px);
+}
