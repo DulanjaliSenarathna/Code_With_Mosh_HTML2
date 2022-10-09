@@ -1,0 +1,15 @@
+:root{
+    --primary-color:#ffdd36;
+    --border-size:2px;
+    --border-radius:10px;
+}
+
+.one
+{
+    background:var(--primary-color);
+}
+
+.two
+{
+    background:var(--primary-color);
+}
