@@ -9,8 +9,10 @@ body{
     height:100px;
     width:100px;
     background:gold;
+    transition: transform 0.5s linear, background 0.5s;
 }
 
 .box:hover{
     transform: rotate(15deg) translate(10px);
+    background:blue;
 }
